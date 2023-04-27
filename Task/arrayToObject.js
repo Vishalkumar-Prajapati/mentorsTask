@@ -1,6 +1,7 @@
 const arr = [["Apple", "Sweet"], ["Book", "Self-Help"], ["Bus", "Trip"]]
 
-// console.log(Object.fromEntries(arr));
+//polyfill for the Object.fromEntries
+// //console.log(Object.fromEntries(arr));
 // function for_of(arr) {
 //     const object = {};
 //     for (const [key, value] of arr) {
@@ -14,7 +15,7 @@ const arr = [["Apple", "Sweet"], ["Book", "Self-Help"], ["Bus", "Trip"]]
 // }
 // console.log('function1 ::' ,for_of(arr));
 
-//27*******************************************************************************************/
+//2*******************************************************************************************/
 // function for_Each(arr) {
 //     const object = {}
 
