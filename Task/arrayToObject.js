@@ -3,14 +3,14 @@ const arr = [["Apple", "Sweet"], ["Book", "Self-Help"], ["Bus", "Trip"]]
 //polyfill for the Object.fromEntries
 // //console.log(Object.fromEntries(arr));
 // function for_of(arr) {
-//     const object = {};
+    // const object = {};
 //     for (const [key, value] of arr) {
 //         object[key] = value;
 //     }
-//     // for (const index of arr) {
-//     //     const [key, value] = arr[index];
-//     //     object[key] = value;
-//     // }
+//     for (const index in arr) {
+//         const [key, value] = arr[index];
+//         object[key] = value;
+//     }
 //     return object;
 // }
 // console.log('function1 ::' ,for_of(arr));
@@ -19,12 +19,12 @@ const arr = [["Apple", "Sweet"], ["Book", "Self-Help"], ["Bus", "Trip"]]
 // function for_Each(arr) {
 //     const object = {}
 
-//     arr.forEach(([key, value]) => {
-//         object[key] = value
-//     });
-//     // arr.map(([key,value])=>{
-//     //     object[key]=value
-//     // });
+    // arr.forEach(([key, value]) => {
+    //     object[key] = value
+    // });
+    // arr.map(([key,value])=>{
+    //     object[key]=value
+    // });
 
 //    return object
 // }
