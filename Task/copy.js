@@ -24,3 +24,7 @@ console.log(assignclone);
 
 console.log(spread);
 
+const arr=[1,2,3,4,5]
+arr.forEach((d)=>d*2);
+
+console.log(arr);
